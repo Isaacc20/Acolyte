@@ -1,6 +1,7 @@
 import React from 'react'
 import frame from '../../assets/icons/frame.svg'
 import Button from '../shared/Button'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -11,11 +12,11 @@ const Nav = () => {
                     <h3 className='text-sm font-bold text-white flex items-center'><img src={frame} width={15} alt="" />&nbsp; 200</h3>
                     <span className='text-[12px] text-grey-400'>~US$1000.00</span>
                 </div>
-                <h2 className='font-bold text-3xl text-white'>What&apos;s happenin  around you today?</h2>
+                <h2 className='font-bold text-3xl text-white'>What&apos;s happening  around you today?</h2>
                 <Button text={'Create a Post +'} bgColor={'bg-grey-600'} />
                 <hr />
                 <div className="flex flex-col gap-4">
-                    <a href="#"></a>
+                    <Link to="#" className='text-white font-bold text-xl'>Home</Link>
                 </div>
             </div>
         </div>
