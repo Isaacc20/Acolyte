@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import Landing from './pages/Landing';
 import Home from './pages/Home';
 import Header from './components/Header';
 // import {  } from "module";
@@ -7,10 +8,11 @@ import Header from './components/Header';
 function App() {
   return (
     <>
-      <div className='app bg-primary-900 min-h-screen'>
+      <div className='app bg-grey-900 min-h-screen'>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Landing />} />
+          <Route path='/home' element={<Home />} />
         </Routes>
       </div>
     </>

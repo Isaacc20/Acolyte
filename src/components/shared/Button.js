@@ -6,7 +6,7 @@ const Button = ({ text, bgColor, icon}) => {
         <button className={`flex items-center justify-center gap-3 px-4 py-3 rounded-lg text-white text-lg font-bold ${bgColor}`}>
             { 
                 icon && 
-                <img src={icon} width={15} alt="" />
+                <img src={icon} alt="" />
             }
             { text }
         </button>

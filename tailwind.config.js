@@ -6,10 +6,11 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      "primary-900": "#101828",
-      "primary-800": "#1D2939",
-      "primary-700": "#344054",
-      "primary-600": "#475467",
+      "grey-900": "#101828",
+      "grey-800": "#1D2939",
+      "grey-700": "#344054",
+      "grey-600": "#475467",
+      "grey-400": "#98A2B3",
       "white": "#FFFF",
       "white-64": "#FFFFFFA3",
       "white-24": "#FFFFFF3D",
